@@ -35,7 +35,7 @@ Note the course used to be solely delivered via NET REPL. This is slowly being u
 ####[Checkout the example "my_solution"](how-to/my_solution.cs)
 
 ##To-Do
-**Noto: The NET REPL does not save your code - if you navigate away from the page you will loose your work. As such you should open the corresponding solution file in the exercises folder and copy paste your code in the corresponding place**
+**Noto: The NET REPL does not save your code - if you navigate away from the page you will loose your work. As such you should open the corresponding my_solution.cs file in the exercises folder and copy paste your code in the corresponding place. By the end of the exercise your solution should look something like the example.**
 
 1. Watch the following videos on [C# from scratch](http://www.pluralsight.com/courses/csharp-from-scratch)
 	- Introduction
