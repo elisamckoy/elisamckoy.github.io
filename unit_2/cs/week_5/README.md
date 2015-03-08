@@ -1,4 +1,6 @@
 #Intro to weeks 5-7
+**[Before starting this week's material, be sure to fetch all curriculum changes](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/fetching-changes.md).**
+
 The structure of the next three weeks present you with a list of videos to watch from Microsoft Virtual Academy C# fundamentals course, a list of EDA C# challenges and a list of stretch videos on PluralSight.
 
 Expectations are that you make it through the videos on MVA and the challenges. The stretch videos are there for you to watch if you have time.
@@ -44,6 +46,8 @@ ii solution_name.sln
 [Stretch: Types and Assemblies](http://www.pluralsight.com/courses/csharp-fundamentals-csharp5)   
 
 ## Submitting your work
+
+If you need, you can review [these guidelines](../../../phase-0-handbook/submission-guidelines) on submitting challenges.
 
 - You must complete the [week's submission form](http://goo.gl/forms/2XBsRXjl4V) to turn in your work.
 - The week's work is due by midnight on Sunday. (Otherwise it turns into a pumpkin)
