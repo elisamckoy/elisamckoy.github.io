@@ -1,4 +1,5 @@
-﻿// Solution 1: using string methods and if statements
+﻿/************************* This File is set to not compile so is not part of the working solution *****************************/
+// Solution 1: using string methods and if statements
 using System;
 using System.Collections.Generic;
 
