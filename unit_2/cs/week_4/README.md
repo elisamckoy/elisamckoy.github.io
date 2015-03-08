@@ -35,18 +35,19 @@ Note the course used to be solely delivered via NET REPL. This is slowly being u
 ####[Checkout the example "my_solution"](how-to/my_solution.cs)
 
 ##To-Do
-**Noto: The NET REPL does not save your code - if you navigate away from the page you will loose your work. As such you should open the corresponding my_solution.cs file in the exercises folder and copy paste your code in the corresponding place. By the end of the exercise your solution should look something like the example.**
+**The NET REPL does not save your code - if you navigate away from the page you will loose your work. As such you should open the corresponding my_solution.cs file in the exercises folder and copy paste your code in the corresponding place. By the end of the exercise your solution should look something like the example.**
 
-1. Watch the following videos on [C# from scratch](http://www.pluralsight.com/courses/csharp-from-scratch)
+1. [Fetch all curriculum changes](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/fetching-changes.md).
+2. Watch the following videos on [C# from scratch](http://www.pluralsight.com/courses/csharp-from-scratch)
 	- Introduction
 	- Fundamentals
 	- Truth
-2. Work through labs 1,2 & 3 on the [REPL](http://net-repl.enspiral.info/labs) - note: the valid triangle exercise is pretty tough, make sure you time box it. You can always come back to it.
-3. Watch [Program Flow](http://www.pluralsight.com/courses/csharp-from-scratch)
-4. Work through lab 4 on the [REPL](http://net-repl.enspiral.info/labs) - note: the tests use the methods and check what is returned!
-5. Watch [Arrays & Collections](http://www.pluralsight.com/courses/csharp-from-scratch)
-6.  Work through lab 5 on the [REPL](http://net-repl.enspiral.info/labs)
-7. Optional - watch some more vids :)
+3. Work through labs 1,2 & 3 on the [REPL](http://net-repl.enspiral.info/labs) - note: the valid triangle exercise is pretty tough, make sure you time box it. You can always come back to it.
+4. Watch [Program Flow](http://www.pluralsight.com/courses/csharp-from-scratch)
+5. Work through lab 4 on the [REPL](http://net-repl.enspiral.info/labs) - note: the tests use the methods and check what is returned!
+6. Watch [Arrays & Collections](http://www.pluralsight.com/courses/csharp-from-scratch)
+7.  Work through lab 5 on the [REPL](http://net-repl.enspiral.info/labs)
+8. Optional - watch some more vids :)
 [PluralSight](http://www.pluralsight.com/)
 [Channel9](http://channel9.msdn.com/)
 [MSVirtualAcademy](http://www.microsoftvirtualacademy.com/training-courses/c-fundamentals-for-absolute-beginners?prid=ch9courselink)
