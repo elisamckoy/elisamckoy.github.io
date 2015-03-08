@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="my_solution.cs" />
-    <Compile Include="example_solution.cs" />
+    <None Include="example_solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
