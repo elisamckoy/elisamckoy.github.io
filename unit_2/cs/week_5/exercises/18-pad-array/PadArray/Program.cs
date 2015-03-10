@@ -1,7 +1,8 @@
 ﻿/******************** Summary *************************
-Exercise: Find the largest integer in a List
-Write a method LargestInteger which takes as its input a List of integers and returns the largest integer in the List.
-
+Exercise: Create a method to pad a List<int>
+Write two methods, PadOriginal and PadNew which takes as their input an List<int>, a length to pad up to, and an object for padding.
+PadNew should return a different List<int> and the original should be untouched.abstract
+PadOriginal should modify the original List<int>.
 *******************************************************/
 
 using System;
