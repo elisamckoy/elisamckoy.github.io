@@ -11,32 +11,16 @@ namespace PadArray
         {
         }
 
-        public List<object> PadOriginal(List<object> array, int minSize, Object padding = null)
+        public static float Median(List<int> list)
         {
-            int spacesToAdd = minSize - array.Count;
-            if (padding == null)
-                padding = 0;
-
-            for (int index = 0; index < spacesToAdd; index++)
+            list.Sort();
+            if (list.Count % 2 == 0)
             {
-                array.Add(padding);
+                var sum = list[(list.Count / 2) - 1] + list[list.Count / 2];
+                return sum / (float)2.0;
             }
-            return array;
+            var temp = list[list.Count / 2];
+            return temp;
         }
-
-        public List<object> PadNew(List<object> array, int minSize, Object padding = null)
-        {
-            int spacesToAdd = minSize - array.Count;
-            if (padding == null)
-                padding = 0;
-
-            List<object> newArray = (List<object>)array.Clone();
-            for (int index = 0; index < spacesToAdd; index++)
-            {
-                newArray.Add(padding);
-            }
-            return newArray;
-        }
-
     }
 }
