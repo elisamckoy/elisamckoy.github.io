@@ -6,17 +6,15 @@ This week, we'll learn some basic principles + common patterns of programming. Y
 
 **Notices:**
 - Before starting this week's material, please [fetch all curriculum changes](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/fetching-changes.md).
-- When submitting your challenges this week, make sure that you are working off your forked copy of the phase zero repo. 
-- Work smart. This means timeboxing, writing pseudocode and driver code, committing often, refactoring, reflecting, and asking for help when you need it.
 
 ## To-Do
 
 1. Treehouse: [Javascript Basics](http://teamtreehouse.com/library/javascript-basics)
 2. Treehouse: [Javascript Loops + Arrays](http://teamtreehouse.com/library/javascript-loops-arrays-and-objects)
 3. Treehouse: [JQuery Basics](http://teamtreehouse.com/library/jquery-basics)
-4. Treehouse: [Interactive Web Pages with Javascript](http://teamtreehouse.com/library/interactive-web-pages-with-javascript)
 
 ### Suggested, but optional:
+4. Treehouse: [Interactive Web Pages with Javascript](http://teamtreehouse.com/library/interactive-web-pages-with-javascript)
 5. Treehouse: [Website Optimization](http://teamtreehouse.com/library/website-optimization)
 6. [Make your Website Interactive](./interactive-website)
 
