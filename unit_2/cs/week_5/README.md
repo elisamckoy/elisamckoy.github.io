@@ -22,9 +22,11 @@ This week you will be working on writing command-line programs focusing on algor
 
 Watch these chapters of the tutorial:
 
-- [Chapters 1-8 of C# fundamentals for absolute beginners](http://www.microsoftvirtualacademy.com/training-courses/c-fundamentals-for-absolute-beginners?prid=ch9courselink)
+- [Chapters 1, 3-8 of C# fundamentals for absolute beginners](http://www.microsoftvirtualacademy.com/training-courses/c-fundamentals-for-absolute-beginners?prid=ch9courselink)
 
-Note: you can change the speed of the playback
+- you can change the speed of the playback
+- chapter 2 is for installing visual studio express - you dont want this version as it does not allow you to install extensions.
+- To setup your machine for development [look to the handbook](https://github.com/dev-academy-phase0/phase-0-handbook/tree/master/cs-setup)
 
 ##The Challenges
 You can use the ii (Invoke-Item) command to open a Visual Studio solution file. Inside the exercise folder you will find a list of directories, each being one of the challenges for the week. navigate into the desired folder and type something like:
