@@ -22,7 +22,7 @@ namespace FindMode
             Console.ReadLine();
         }
 
-        public static List<int> Mode(List<int> array)
+        public List<int> Mode(List<int> array)
         {
             // Your code here - remove the NotImplementedException
             throw new NotImplementedException();

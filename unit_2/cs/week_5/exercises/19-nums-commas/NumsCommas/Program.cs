@@ -19,7 +19,7 @@ namespace NumsCommas
             Console.ReadLine();
         }
 
-        public static String SeparateComma(int number)
+        public  string SeparateComma(int number)
         {
             // Your code here - remove the NotImplementedException
             throw new NotImplementedException();
