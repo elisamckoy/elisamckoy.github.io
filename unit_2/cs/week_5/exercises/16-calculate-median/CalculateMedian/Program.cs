@@ -1,8 +1,6 @@
 ﻿/******************** Summary *************************
-Exercise: Calculating the array mode
-Write a method Mode which takes an List<int> of numbers as its input and returns a List<int> of the most frequent values.
-
-If there's only one most-frequent value, it returns a single-element List<int>.
+Exercise: Calculating the array median
+Write a method Median which takes an List<int> of numbers as its input and returns a float of the median value.
 *******************************************************/
 
 using System;
