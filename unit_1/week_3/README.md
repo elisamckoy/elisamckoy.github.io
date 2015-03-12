@@ -1,8 +1,6 @@
 # Week 3: Javascript + JQuery
 
-This week, we'll learn some basic principles + common patterns of programming. You'll start building simple javascript programs that run in the console with node. Afterwards, you'll learn how javascript is used on the web and at the end of the week, you'll revisit your github pages website and use javascript to make it interactive.
-
-**To run javascript files from the terminal, navigate to the file's directory and run: ```node name_of_your_file.js```**
+This week, we'll learn some basic principles + common patterns of programming and learn to make our websites interactive with JavaScript.
 
 **Notices:**
 - Before starting this week's material, please [fetch all curriculum changes](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/fetching-changes.md).
@@ -15,8 +13,8 @@ This week, we'll learn some basic principles + common patterns of programming. Y
 
 ### Suggested, but optional:
 4. Treehouse: [Interactive Web Pages with Javascript](http://teamtreehouse.com/library/interactive-web-pages-with-javascript)
-5. Treehouse: [Website Optimization](http://teamtreehouse.com/library/website-optimization)
-6. [Make your Website Interactive](./interactive-website)
+5. [Make your Website Interactive](./interactive-website)
+6. Treehouse: [Website Optimization](http://teamtreehouse.com/library/website-optimization)
 
 #### Everyday
 - Practice touch typing in JavaScript / jQuery with [typing.io](https://typing.io). You should be past 40wpm by the end of phase zero.
