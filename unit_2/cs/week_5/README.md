@@ -29,7 +29,7 @@ Watch these chapters of the tutorial:
 - To setup your machine for development [look to the handbook](https://github.com/dev-academy-phase0/phase-0-handbook/tree/master/cs-setup)
 
 ##The Challenges
-You can use the ii (Invoke-Item) command to open a Visual Studio solution file. Inside the exercise folder you will find a list of directories, each being one of the challenges for the week. navigate into the desired folder and type something like:
+You can use the ii (Invoke-Item) command to open a Visual Studio solution file. Inside the **exercises_V2** (exercises is now legacy) folder you will find a list of directories, each being one of the challenges for the week. navigate into the desired folder and type something like:
 ```
 ii solution_name.sln   
 ```
@@ -38,8 +38,8 @@ ii solution_name.sln
 - Calculate median
 - Find mode
 - Pad array
-- nums to commas
-- cipher challenge
+- Nums to commas
+- Cipher challenge
 
 ##PluralSight
 
