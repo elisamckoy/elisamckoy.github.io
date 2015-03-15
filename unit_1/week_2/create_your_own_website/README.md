@@ -28,7 +28,7 @@ Your website might never feel done. This is okay, just post whatever you have at
 - http://pietgeursen.github.io/homework/index.html
 - http://samnz19.github.io/
 - http://sarahbreezie.github.io/homework/about.html
-- https://seanyarrall.github.io/index.html
+- http://seanyarrall.github.io/ryanbrakemusic/
 
 
 
