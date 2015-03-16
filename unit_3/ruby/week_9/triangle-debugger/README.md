@@ -10,7 +10,7 @@ Debugging is an art, and some weeks you will likely spend most of your time debu
 
 ## Release 1: Run RSpec Tests
 
-Run the [RSpec tests](triangle_spec.rb) to see what the bugs are. Read the error messages. You'll find that your code 'valid_triangle?' method is erroring before the tests have even run. Bugs in your code have prevented you from even running your tests. Your goal will be to find and fix these bugs so that all the tests pass.
+Run the [RSpec tests](triangle_spec.rb) to see what the bugs are. Read the error messages. You'll find that your 'valid_triangle?' method is erroring before the tests have even had a chance to run. Your goal will be to find and fix these bugs so that all the tests pass.
 
 For each bug (there are three initial bugs that cause interpreter errors), consider the following questions:
 - Do you have enough information to decipher the problem?
