@@ -8,7 +8,9 @@
 
 Debugging is an art, and some weeks you will likely spend most of your time debugging as opposed to actual coding.  In this challenge, we'll explore some common errors and slow things down by listing the error, its line number, and an educated guess why the error is occurring.
 
-## Release 1: Consider
+## Release 1: Run RSpec Tests
+
+Run the [RSpec tests](triangle_spec.rb) to see what the bugs are. Read the error messages. You'll find that your code 'valid_triangle?' method is erroring before the tests have even run. Bugs in your code have prevented you from even running your tests. Your goal will be to find and fix these bugs so that all the tests pass.
 
 For each bug (there are three initial bugs that cause interpreter errors), consider the following questions:
 - Do you have enough information to decipher the problem?
@@ -22,9 +24,6 @@ There are questions to answer for each bug in the [my_solution.rb](my_solution.r
 - What is the exact line number the error is appearing?
 - Before you fix the bug, what do you think is causing the error?
 
-## Release 3: Make the code pass
-Modify the code to make it run and pass the [RSpec tests](triangle_spec.rb).
+## Release 3: [Refactor](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/coding-references/refactoring.md)
 
-## Release 4: [Refactor](https://github.com/dev-academy-phase0/phase-0-handbook/blob/master/coding-references/refactoring.md)
-
-## Release 5: Push!
+## Release 4: Push!
