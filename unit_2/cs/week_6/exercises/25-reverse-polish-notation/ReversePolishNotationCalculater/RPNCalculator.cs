@@ -1,7 +1,7 @@
 ﻿/******************** Summary *************************
 Exercise: Create a Reverse Polish Notation Calculator
 
-The expression for 'normal' maths (ie. "1 + 2") is provided for you via the EvaluateStringExpression method.
+The expression for 'normal' maths (ie. "1 + 2") is provided for you via the Evaluate method.
 
 Remember to think about the what the job of each method is? What does it take as input and return?
 ******************** Summary *************************/
