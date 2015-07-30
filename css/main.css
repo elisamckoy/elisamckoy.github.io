@@ -1,11 +1,10 @@
-/**************************
-GENERAL
-**************************/
+/*----------------------------------GENERAL----------------------------------*/
 
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-#wrapper {
+
+#asefwrapper {
 	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
@@ -23,9 +22,7 @@ h3 {
 	margin: 0 0 1em 0;
 }
 
-/**************************
-HEADING
-**************************/
+/*----------------------------------HEADING----------------------------------*/
 
 header {
 	float: left;
@@ -52,10 +49,7 @@ h2 {
 	font-weight: normal;
 }
 
-
-/**************************
-NAVIGATION
-**************************/
+/*----------------------------------NAVIGATION----------------------------------*/
 
 nav {
 	text-align: center;
@@ -77,9 +71,8 @@ nav a {
 	font-weight: 800;
 	padding: 15px 10px;
 }
-/**************************
-FOOTER
-**************************/
+
+/*----------------------------------FOOTER----------------------------------*/
 
 footer {
 	font-size: 0.75em;
@@ -95,9 +88,7 @@ footer {
 	margin: 0 5px;
 }
 
-/**************************
-PPAGE: PORTFOLIO
-**************************/
+/*----------------------------------PAGE: PORTFOLIO----------------------------------*/
 
 #gallery {
 	margin: 0;
@@ -120,10 +111,23 @@ PPAGE: PORTFOLIO
 	color: #bdc3c7;
 }
 
+#overlay {
+	background: #f5f5f5;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display:none;
+}
 
-/**************************
-PAGE: ABOUT
-**************************/
+#overlay {
+	margin-top: 10%;
+	text-align: center;
+	
+}
+
+/*----------------------------------PAGE: ABOUT----------------------------------*/
 
 .profile-photo {
 	clear: both;
@@ -137,10 +141,7 @@ PAGE: ABOUT
 	color: #ef9e55;
 }
 
-
-/**************************
-PAGE: CONTACT
-**************************/
+/*----------------------------------PAGE: CONTACT----------------------------------*/
 
 .contact-info {
 	list-style: none;
@@ -172,29 +173,28 @@ PAGE: CONTACT
 	background-image: url('../img/facebook.png');
 	color: #ef9e55;
 }
-/**************************
-COLORS
-**************************/
 
-/* site body */
+/*----------------------------------COLORS----------------------------------*/
+
 body {
 	background-color: #fff;
 	color: #999;
 }
-/* white header */
+
 header {
 	background: #fff;
 }
-
 
 /* nav link color */
 nav a, nav a:visited {
 	color: #ef9e55;
 }
+
 /* selected nav link */
 nav a. selected, nav a:hover {
 	color: #b8814f;
 }
+
 /* logo text */
 h1, h2{
 	text-align: center;
