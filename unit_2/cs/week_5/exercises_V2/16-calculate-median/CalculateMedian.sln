@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateMedian", "CalculateMedian\CalculateMedian.csproj", "{77012C88-41DD-4FD4-A49F-54F43CA29A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{4D2B72E7-180B-4402-9598-ACD98E702B01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77012C88-41DD-4FD4-A49F-54F43CA29A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77012C88-41DD-4FD4-A49F-54F43CA29A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77012C88-41DD-4FD4-A49F-54F43CA29A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77012C88-41DD-4FD4-A49F-54F43CA29A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2B72E7-180B-4402-9598-ACD98E702B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2B72E7-180B-4402-9598-ACD98E702B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2B72E7-180B-4402-9598-ACD98E702B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2B72E7-180B-4402-9598-ACD98E702B01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
