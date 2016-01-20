@@ -100,7 +100,7 @@ footer {
 PPAGE: PORTFOLIO
 **************************/
 
-#gallery {
+#gallery, #yeti {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -112,6 +112,11 @@ PPAGE: PORTFOLIO
 	margin: 2.5%;
 	background-color: #f5f5f5;
 	color: #dbc3c7;
+}
+
+#yeti li{
+	float: left;
+	margin: 2.5%;
 }
 
 #gallery li a p {
