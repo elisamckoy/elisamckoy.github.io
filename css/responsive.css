@@ -1,8 +1,6 @@
 @media screen and (min-width: 480px) {
 
-/**************************
-TWO COLUMN LAYOUT
-**************************/
+/************************** TWO COLUMN LAYOUT **************************/
 
 	#primary {
 		width: 50%;
@@ -14,9 +12,7 @@ TWO COLUMN LAYOUT
 		float: right;
 	}
 
-/**************************
-PAGE: PORTFOLIO
-**************************/	
+/************************** PAGE: PORTFOLIO **************************/	
 
 #gallery li {
 	width: 28.333333%
@@ -29,9 +25,7 @@ PAGE: PORTFOLIO
 
 
 
-/**************************
-PAGE: ABOUT
-**************************/	
+/************************** PAGE: ABOUT **************************/	
 
 .profile-photo {
 	float: left;
@@ -43,9 +37,7 @@ PAGE: ABOUT
 
 @media screen and (min-width: 660px) {
 
-/**************************
-HEADER
-**************************/
+/************************** HEADER **************************/
 
 nav {
 	background: none;

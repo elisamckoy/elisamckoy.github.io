@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='store'>
 	<head>
 		<meta charset="utf-8">
 		<title>Liz McKoy | Designer/Programer</title>
@@ -8,59 +8,32 @@
 		<link rel="stylesheet" type="text/css" href="../css/main.css">
 		<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="app.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+		<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+		
 	</head>
 	<body>
 		<header>
 			<a href="index.html" id="logo">
-				<h1>Liz McKoy</h1>
-				<h2>Designer/Programer</h2>
+				<img src="../img/Title.jpg" alt="Photograph of Elisabeth">
 			</a>
-			<nav>
-				<ul>
-					<li><a href="index.html">Portfolio</a></li>
-					<li><a href="about.html" class="selected">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
 		</header>
 		<div id="wrapper">
 			<section>
+				<h3>ABOUT</h3>
+				<p>Hello, I'm Liz McKoy and this is my design portfolio where I play around with ideas. I enjoy playing games, hardwork, eating good food, and more.</p>
+				<p>If you would like to follow me on facebook and maybe become friends, my Facebook is <a href="https://www.facebook.com/digital.beth">Liz</a></p>
+			</section>
+		</div>
+		<div ng-controller='StoreController as store' id="wrapper">
+			<section>
 				<ul id="gallery">
-					<li>
-						<a href="yeti.html">
-							<img src="../img/yeti_2.jpg" alt="Yeti Project">
-						</a>
-					</li>
-					<li>
-						<a href="../img/cat_1.jpg">
-							<img src="../img/cat_1.jpg" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="../img/cat_4">
-							<img src="../img/cat_4.jpg" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="../img/cat_5.jpg">
-							<img src="../img/cat_5.jpg" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="../img/cat_6.jpg">
-							<img src="../img/cat_6.jpg" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="../img/cat_7.jpg">
-							<img src="../img/cat_7.jpg" alt="">
-						</a>
-					</li>
-					<li>
-						<a href="../img/cat_8.jpg">
-							<img src="../img/cat_8.jpg" alt="">
+					<li ng-repeat='product in store.products'>
+						<a>
+							<h4>{{product.name}}</h4>
+							<img src={{product.image}} alt={{product.name}}>
+							<p>{{product.discripton}}</p>
 						</a>
 					</li>
 				</ul>
@@ -70,6 +43,22 @@
 			<a href="https://www.facebook.com/digital.beth">
 				<img src="../img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
 			<p>&copy; 2015 Liz McKoy.</p>
+			<section id="primary">
+				<h3>Contact Details</h3>
+			</section>
+			<section id="secondary">
+				<ul class="contact-info">
+					<li class="phone">
+						<a href="tel:07708-120020">07708-120020</a>
+					</li>
+					<li class="mail">
+						<a href="mailto:elisabeth.mckoy@gmail.com">Elisabeth.McKoy@gmail.com</a>
+					</li>
+					<li class="facemail">
+						<a href="https://www.facebook.com/messages/digital.beth">Liz</a>
+					</li>
+				</ul>
+			</section>
 		</footer>
 	</body>
 </html>	

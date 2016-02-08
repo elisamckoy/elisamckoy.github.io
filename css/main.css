@@ -1,6 +1,4 @@
-/**************************
-GENERAL
-**************************/
+/************************** GENERAL **************************/
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -24,9 +22,7 @@ h3 {
 	margin: 0 0 1em 0;
 }
 
-/**************************
-HEADING
-**************************/
+/************************** HEADING **************************/
 
 header {
 	float: left;
@@ -34,6 +30,7 @@ header {
 	padding: 5px 0 0 0;
 	width: 100%;
 }
+
 #logo {
 	text-align: center;
 	margin: 0;
@@ -54,33 +51,7 @@ h2 {
 }
 
 
-/**************************
-NAVIGATION
-**************************/
-
-nav {
-	text-align: center;
-	padding: 10px 0;
-	margin: 20px 0 0;
-}
-
-nav ul {
-	list-style: none;
-	margin: 0 10px;
-	padding: 0;
-}
-
-nav li {
-	display: inline-block;
-}
-
-nav a {
-	font-weight: 800;
-	padding: 15px 10px;
-}
-/**************************
-FOOTER
-**************************/
+/************************** FOOTER **************************/
 
 footer {
 	font-size: 0.75em;
@@ -96,9 +67,7 @@ footer {
 	margin: 0 5px;
 }
 
-/**************************
-PPAGE: PORTFOLIO
-**************************/
+/************************** PORTFOLIO **************************/
 
 #gallery, #yeti {
 	margin: 0;
@@ -127,26 +96,15 @@ PPAGE: PORTFOLIO
 }
 
 
-/**************************
-PAGE: ABOUT
-**************************/
+/************************** ABOUT **************************/
 
-.profile-photo {
-	clear: both;
-	display: block;
-	max-width: 150px;
-	margin: 0 auto 30px;
-	border-radius: 100%;
-}
 
 #wrapper section a {
 	color: #ef9e55;
 }
 
 
-/**************************
-PAGE: CONTACT
-**************************/
+/************************** CONTACT **************************/
 
 .contact-info {
 	list-style: none;
@@ -178,9 +136,7 @@ PAGE: CONTACT
 	background-image: url('../img/facebook.png');
 	color: #ef9e55;
 }
-/**************************
-COLORS
-**************************/
+/************************** COLORS **************************/
 
 /* site body */
 body {
@@ -205,4 +161,8 @@ nav a. selected, nav a:hover {
 h1, h2{
 	text-align: center;
 	color: #ef9e55;
+}
+
+footer {
+	color: #cce7ef;
 }
