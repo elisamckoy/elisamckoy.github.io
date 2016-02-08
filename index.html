@@ -19,7 +19,7 @@
 				<img src="../img/Title.jpg" alt="Photograph of Elisabeth">
 			</a>
 		</header>
-		<div id="wrapper">
+		<div id="wrapper" class="about-wrapper">
 			<section id="primary">
 				<img class="about" src='../img/about.png' alt='About'>
 			</section>
@@ -29,7 +29,7 @@
 			</section>
 		</div>
 		<div ng-controller='StoreController as store' id="wrapper">
-			<section>
+			<section class="gallery-wrapper">
 				<ul id="gallery">
 					<li ng-repeat='product in store.products'>
 						<a href={{product.link}}>

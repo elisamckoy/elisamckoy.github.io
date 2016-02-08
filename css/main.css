@@ -58,6 +58,9 @@ footer {
 }
 
 /************************** PORTFOLIO **************************/
+.gallery-wrapper{
+	position: relative;
+}
 
 #gallery, #yeti {
 	margin: 0;
@@ -97,8 +100,11 @@ footer {
 
 /************************** ABOUT **************************/
 .about{
-	margin-bottom: 50px;
-	position: relative;
+	margin-bottom: 70px;
+}
+
+.about-wrapper{
+	position: fixed;
 }
 
 #wrapper section a {
