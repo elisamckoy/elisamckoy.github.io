@@ -16,6 +16,8 @@ a {
 
 img {
 	max-width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 h3 {
@@ -35,8 +37,6 @@ header {
 	margin: 0;
 }
 
-
-
 /************************** FOOTER **************************/
 
 footer {
@@ -45,7 +45,6 @@ footer {
 	clear: both;
 	padding-top: 50px;
 	color: #ccc;
-	background-color: #000;
 }
 
 .social-icon {
@@ -81,7 +80,6 @@ footer {
 	font-size: 0.75em;
 	color: #bdc3c7;
 }
-
 
 /************************** ABOUT **************************/
 
@@ -151,5 +149,5 @@ h1, h2{
 }
 
 footer {
-	color: #cce7ef;
+	background-color: #cce7ef;
 }

@@ -29,18 +29,13 @@
 				<ul id="gallery">
 					<li ng-repeat='product in store.products'>
 						<a>
-							<h4>{{product.name}}</h4>
-							<img src={{product.image}} alt={{product.name}}>
-							<p>{{product.discripton}}</p>
+							<img class="gallery-images" src={{product.image}} alt={{product.name}}>
 						</a>
 					</li>
 				</ul>
 			</section>	
 		</div>
 		<footer>
-			<a href="https://www.facebook.com/digital.beth">
-				<img src="../img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-			<p>&copy; 2015 Liz McKoy.</p>
 			<section id="primary">
 				<h3>Contact Details</h3>
 			</section>
@@ -57,6 +52,10 @@
 					</li>
 				</ul>
 			</section>
+			<a href="https://www.facebook.com/digital.beth">
+				<img src="../img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+			<p>&copy; 2015 Liz McKoy.</p>
+		
 		</footer>
 	</body>
 </html>	
