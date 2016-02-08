@@ -28,9 +28,9 @@
 			<section>
 				<ul id="gallery">
 					<li ng-repeat='product in store.products'>
-						<a href={{product.link}}>
+						<a ng-mouseenter="options=false" ng-mouseleave="options=true" href={{product.link}}>
 							<img class="gallery-images" src={{product.image}} alt={{product.name}}>
-							<p id='onHover'>{{product.name}}</p>
+							<p ng-hide='options'>{{product.name}}</p>
 						</a>
 					</li>
 				</ul>
