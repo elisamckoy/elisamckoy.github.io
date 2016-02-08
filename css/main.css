@@ -20,11 +20,6 @@ img {
   filter: grayscale(100%);
 }
 
-#imageHolder{
-	width: 100px;
-	height: auto;
-}
-
 h3 {
 	margin: 0 0 1em 0;
 }
