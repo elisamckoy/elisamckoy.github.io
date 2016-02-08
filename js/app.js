@@ -32,13 +32,5 @@
 			image: '../img/minesweeper.jpg'
 		}
 	]
-
-	document.on(mouseover, '.gallery-images', function(){
-		document.getElementById("onHover").style.visibility = "visible";
-	});
-
-	document.on(mouseleave, '.gallery-images', function(){
-		document.getElementById("onHover").style.visibility = "hidden";
-	});
-
 })();
+
