@@ -104,7 +104,7 @@ footer {
 }
 
 .about-wrapper{
-	position: fixed;
+	position: absolute;
 }
 
 #wrapper section a {
