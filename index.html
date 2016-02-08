@@ -28,8 +28,9 @@
 			<section>
 				<ul id="gallery">
 					<li ng-repeat='product in store.products'>
-						<a>
+						<a href={{product.link}}>
 							<img class="gallery-images" src={{product.image}} alt={{product.name}}>
+							<p id='onHover'>{{product.name}}</p>
 						</a>
 					</li>
 				</ul>

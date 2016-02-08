@@ -13,18 +13,32 @@
 			name: 'Nightmare',
 			description:'University project, creating a space with the theme of Nightmare Before Christmas',
 			link: 'https://www.youtube.com/watch?v=qq4n0ioRbvs',
-			image: '../img/cat_1.jpg'
+			image: '../img/nightmare.jpg'
 		},
 		{
 			name: 'TipJar',
-			description: 'TipJar was a project with a team of 7, we were given the task to make an app with a time frame of 1 week',
+			description: 'TipJar was a project with a team of seven, we were given the task to make an app with a time frame of one week',
 			link: 'http://tipjarwellington.herokuapp.com/',
-			image: '../img/cat_2.jpg'
+			image: '../img/tipjar.jpg'
 		},
 		{
 			name: 'Irridesent',
-			description: 'a fun personal project using Ajax and javascript',
-			image: '../img/cat_3.jpg'
+			description: 'a fun personal project using Ajax and javascript. Created in one week',
+			image: '../img/irridesent.jpg'
+		},
+		{
+			name: 'Minesweeper',
+			description: 'A three day project with a team of three'
+			image: '../img/minesweeper.jpg'
 		}
 	]
+
+	$(document).on(mouseover, '.gallery-images', function(){
+		document.getElementById("onHover").style.visibility = "visible";
+	});
+
+	$(document).on(mouseleave, '.gallery-images', function(){
+		document.getElementById("onHover").style.visibility = "hidden";
+	});
+	
 })();
