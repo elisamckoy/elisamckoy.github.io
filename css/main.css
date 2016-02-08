@@ -81,6 +81,16 @@ footer {
 	color: #bdc3c7;
 }
 
+.gallery-images{
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.gallery-images:hover {
+	  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
 /************************** ABOUT **************************/
 
 
