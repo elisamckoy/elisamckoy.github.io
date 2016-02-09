@@ -4,6 +4,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+#container{
+	min-height:100%;
+  position:relative;
+}
+
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
@@ -49,6 +54,9 @@ footer {
 	text-align: center;
 	clear: both;
 	color: #ccc;
+	position:absolute;
+  bottom:0;
+  height:100px;
 }
 
 .social-icon {
@@ -161,10 +169,6 @@ header {
 	background: #fff;
 }
 
-/* nav link color */
-nav a, nav a:visited {
-	color: #f5f5f5;
-}
 
 /* logo text */
 h1, h2{
