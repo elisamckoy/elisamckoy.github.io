@@ -36,7 +36,7 @@ header {
 }
 
 #logo {
-	padding-left: 10%;
+	padding-left: 2.5%;
 	float: center;
 	margin: 0;
 }
@@ -44,11 +44,10 @@ header {
 /************************** FOOTER **************************/
 
 footer {
-	height: 300px;
+	width: 100%;
 	font-size: 0.75em;
 	text-align: center;
 	clear: both;
-	padding-top: 50px;
 	color: #ccc;
 }
 
@@ -60,7 +59,10 @@ footer {
 
 /************************** PORTFOLIO **************************/
 .gallery-wrapper{
+	clear: both;
 	position: relative;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 #gallery, #yeti {
@@ -105,6 +107,8 @@ footer {
 }
 
 .about-wrapper{
+	padding-top: 25px;
+	padding-bottom: 25px;
 	clear: both;
 }
 
