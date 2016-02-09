@@ -43,6 +43,9 @@ header {
 }
 
 /************************** FOOTER **************************/
+.footer-wrapper {
+	margin-top: 25px;
+}
 
 footer {
 	width: 100%;
