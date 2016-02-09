@@ -48,6 +48,7 @@ footer {
 	font-size: 0.75em;
 	text-align: center;
 	color: #ccc;
+	background-color: #fff;
 }
 
 .social-icon {
@@ -58,7 +59,6 @@ footer {
 
 /************************** PORTFOLIO **************************/
 .gallery-wrapper{
-	clear: both;
 	position: relative;
 	padding-top: 25px;
 	padding-bottom: 25px;
