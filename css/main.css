@@ -44,15 +44,15 @@ header {
 
 /************************** FOOTER **************************/
 #primary, #secondary {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 70px;
+	margin-bottom: 30px;
 }
 
 footer {
 	width: 100%;
 	font-size: 0.75em;
-	text-align: center;
-	color: #ccc;
+	text-align: left;
+	color: #999;
 	background-color: #fff;
 }
 
