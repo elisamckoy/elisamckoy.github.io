@@ -36,6 +36,7 @@ header {
 }
 
 #logo {
+	padding-left: 10%;
 	float: center;
 	margin: 0;
 }
@@ -104,7 +105,7 @@ footer {
 }
 
 .about-wrapper{
-
+	clear: both;
 }
 
 #wrapper section a {

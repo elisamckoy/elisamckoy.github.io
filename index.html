@@ -19,7 +19,6 @@
 				<img src="../img/Title.jpg" alt="Photograph of Elisabeth">
 			</a>
 		</header>
-		<br>
 		<div id="wrapper" class="about-wrapper">
 			<section id="primary">
 				<img class="about" src='../img/about.png' alt='About'>
@@ -29,9 +28,8 @@
 				<p>If you would like to follow me on facebook and maybe become friends, my Facebook is <a href="https://www.facebook.com/digital.beth">Liz</a></p>
 			</section>
 		</div>
-		<br>
-		<div ng-controller='StoreController as store' id="wrapper">
-			<section class="gallery-wrapper">
+		<div ng-controller='StoreController as store' id="wrapper" class="gallery-wrapper">
+			<section>
 				<ul id="gallery">
 					<li ng-repeat='product in store.products'>
 						<a href={{product.link}}>
@@ -41,24 +39,25 @@
 				</ul>
 			</section>	
 		</div>
-		<br>
 		<footer>
-			<section id="primary">
-				<img src='../img/contact-details.png' alt='Contact Details'>
-			</section>
-			<section id="secondary">
-				<ul class="contact-info">
-					<li class="phone">
-						<a href="tel:07708-120020">07708-120020</a>
-					</li>
-					<li class="mail">
-						<a href="mailto:elisabeth.mckoy@gmail.com">Elisabeth.McKoy@gmail.com</a>
-					</li>
-					<li class="facemail">
-						<a href="https://www.facebook.com/messages/digital.beth">Liz</a>
-					</li>
-				</ul>
-			</section>
+			<div class="footer-wrapper">
+				<section id="primary">
+					<img src='../img/contact-details.png' alt='Contact Details'>
+				</section>
+				<section id="secondary">
+					<ul class="contact-info">
+						<li class="phone">
+							<a href="tel:07708-120020">07708-120020</a>
+						</li>
+						<li class="mail">
+							<a href="mailto:elisabeth.mckoy@gmail.com">Elisabeth.McKoy@gmail.com</a>
+						</li>
+						<li class="facemail">
+							<a href="https://www.facebook.com/messages/digital.beth">Liz</a>
+						</li>
+					</ul>
+				</section>
+			</div>
 			<a href="https://www.facebook.com/digital.beth">
 				<img src="../img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
 			<p>&copy; 2015 Liz McKoy.</p>
